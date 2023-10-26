@@ -1,0 +1,943 @@
+Package: ros-humble-ackermann-steering-controller-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.17
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-ackermann-steering-controller
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 543
+Depends: ros-humble-ackermann-steering-controller (= 100.0.0-2023.10.26.15.17)
+Filename: ./ros-humble-ackermann-steering-controller-dbgsym_100.0.0-2023.10.26.15.17_amd64.ddeb
+Size: 516606
+MD5sum: 3311de831a517d9a231d8f64d678eebc
+SHA1: 346681aeb9ae75db8a4913c0f8a49f7067783096
+SHA256: 0824d7e40f0334a1ad213dc72bcd1c135f064687f2250c40af0eb7c7b39e6851
+SHA512: c3a6165f2589dd2d8c017da126aada167dcfcbb86b43eb8d78a7097e38fb68c45cddbd8a48a1dabad8322dd0c4257a14117d803864b9dcec03fe1de3fc106534
+Description: debug symbols for ros-humble-ackermann-steering-controller
+Build-Ids: 072b51b80af1c72de974824c08ffa4a845d395e3
+
+Package: ros-humble-ackermann-steering-controller
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.17
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 195
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-control-msgs, ros-humble-controller-interface, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-std-srvs, ros-humble-steering-controllers-library
+Filename: ./ros-humble-ackermann-steering-controller_100.0.0-2023.10.26.15.17_amd64.deb
+Size: 41826
+MD5sum: fb17cb326168f9a5f5ab9561f0e4a8b9
+SHA1: e1e036e079b0a63ce4948df48be7ae936a3c80a9
+SHA256: 22e9ed9131e1fa306f3f67031b580f02b05cf26eede710ff855dc1a5947ec41d
+SHA512: f358eafbe1d64a50d4032bb504b1887520c0ae282667bd858bf24b8781073ef934d164a13c64b7147477d2c18ba2eae4a82725295395aecbcb44992c650c2931
+Description: Steering controller for Ackermann kinematics.
+ Rear fixed wheels are powering the vehicle and front wheels are steering it.
+
+Package: ros-humble-admittance-controller-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.52
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-admittance-controller
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 6010
+Depends: ros-humble-admittance-controller (= 100.0.0-2023.10.26.14.52)
+Filename: ./ros-humble-admittance-controller-dbgsym_100.0.0-2023.10.26.14.52_amd64.ddeb
+Size: 5600848
+MD5sum: b4a93d416024e5842e0ce9b513124dc9
+SHA1: 80642ade4108ceed30516fbf632bfec541b739f5
+SHA256: f784e234fbf63defc91a1b1c7707a50590a077b58529f3dce23f40095b08aeb5
+SHA512: 603a6c3a226906e8531fcbbd49dd0715233006a3abe8f715a8ca5c15562afe6ab18dd3c590e7d6a934d384b3a71412dc2177905eb5f9e9eac45224b4e413ebb0
+Description: debug symbols for ros-humble-admittance-controller
+Build-Ids: 9255be7ecdf0cb0df9b058a275d87bbf8368e250
+
+Package: ros-humble-admittance-controller
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.52
+Priority: optional
+Section: misc
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 1017
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-backward-ros, ros-humble-control-msgs, ros-humble-control-toolbox, ros-humble-controller-interface, ros-humble-filters, ros-humble-generate-parameter-library, ros-humble-geometry-msgs, ros-humble-hardware-interface, ros-humble-joint-trajectory-controller, ros-humble-kinematics-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-realtime-tools, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tf2-kdl, ros-humble-tf2-ros, ros-humble-trajectory-msgs
+Filename: ./ros-humble-admittance-controller_100.0.0-2023.10.26.14.52_amd64.deb
+Size: 252830
+MD5sum: 451274ef62408e3186f675660389e19d
+SHA1: 9dfd51f7e5c33e336c708ce59c5b91f3b2260e0c
+SHA256: 4257cd4f783b77430bbd8d3cc372f5eb239b7dff3c1b58d28a56fad5b9bd561c
+SHA512: 9446cf1a740f5326a4c8d07631f34130c2c6d08a27dc9f9cf069f17d8013391c2ed6bcbb2455f3afa0bb02a03b966f379e54d1561ec6d792e858953f01cbedd8
+Description: Implementation of admittance controllers for different input and output interface.
+
+Package: ros-humble-bicycle-steering-controller-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.20
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-bicycle-steering-controller
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 535
+Depends: ros-humble-bicycle-steering-controller (= 100.0.0-2023.10.26.15.20)
+Filename: ./ros-humble-bicycle-steering-controller-dbgsym_100.0.0-2023.10.26.15.20_amd64.ddeb
+Size: 510636
+MD5sum: 8cacc0ba8ea900ad86f8c3c53f4e6320
+SHA1: a5dfeb78bf18099f21be6bebdb2b69c91b7322e8
+SHA256: 23643c38ee0dde12480ce2af420ed1a42faf8b545721818df9ce56df04f9c324
+SHA512: 31f19cdfe4a894595501e6a6bea1fb4d8d2f36467b44ef695fe85763b91c6f3260be9cf2802c2e831e856385387a5f71fe76d3c5742a617637d49391e118aae3
+Description: debug symbols for ros-humble-bicycle-steering-controller
+Build-Ids: 15dc42cb68bad76b3d2b3205004ded2320bc2810
+
+Package: ros-humble-bicycle-steering-controller
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.20
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 185
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-control-msgs, ros-humble-controller-interface, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-std-srvs, ros-humble-steering-controllers-library
+Filename: ./ros-humble-bicycle-steering-controller_100.0.0-2023.10.26.15.20_amd64.deb
+Size: 40120
+MD5sum: 04088fe89129ba3b9719d6f7ca6ac68d
+SHA1: 5c6b28edddefb9228774e9c256daf2dd44de92e9
+SHA256: 926224361d023bee6567420d81416f8dc79b7a74e1b2f644494d02e7eff6c72d
+SHA512: 4556f6044da9085e1e545ded7e4bfa059a7ff47746698212a3d6fc9f09a82eea9fa8ac6b5a32e4573890e5c154436a793f64de9110fe14705a39bcca3b54f5da
+Description: Steering controller with bicycle kinematics.
+ Rear fixed wheel is powering the vehicle and front wheel is steering.
+
+Package: ros-humble-diff-drive-controller-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.25
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-diff-drive-controller
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 4237
+Depends: ros-humble-diff-drive-controller (= 100.0.0-2023.10.26.14.25)
+Filename: ./ros-humble-diff-drive-controller-dbgsym_100.0.0-2023.10.26.14.25_amd64.ddeb
+Size: 3563712
+MD5sum: b91078332eeb3319ee13d0d95f510ee6
+SHA1: 03371eb58d272f1e19474f1ad744598ceb1ffb15
+SHA256: 5ef072688d93c4a887cc6f496380299cb7963ea941ffbf95f866cf03ebf60f2c
+SHA512: 1df2eeb8b325f2f65dd9ae2146f2ed103772f2811eebb82b0202dacbb880cdfb7c3ff687d2c9f57654922710a838bbba19964f0e26345be26cf5c62cefaef9de
+Description: debug symbols for ros-humble-diff-drive-controller
+Build-Ids: 17f02a6e82f24b62d1ff891fea69495baa538054
+
+Package: ros-humble-diff-drive-controller
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.25
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 1071
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-backward-ros, ros-humble-controller-interface, ros-humble-geometry-msgs, ros-humble-hardware-interface, ros-humble-nav-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-rcpputils, ros-humble-realtime-tools, ros-humble-tf2, ros-humble-tf2-msgs
+Filename: ./ros-humble-diff-drive-controller_100.0.0-2023.10.26.14.25_amd64.deb
+Size: 206198
+MD5sum: 9e56f1a1ccb8fa7bd7c44bf05f32537c
+SHA1: bce2d80d95b06401983dbd8d4be6986aa4bbd820
+SHA256: 4969ae72425021557ef91f1a960a0e53adc9d75ddfdc19c1468cd6c09a4248ae
+SHA512: e6816acae0778668f0df090c47bd8b920f7e2fe51c68697acc62f70fd628d7cc5ec55c165dbab95366d9a9bde769de8720cb360ff6ec9f172cc5503ea0a0599b
+Description: Controller for a differential drive mobile base.
+
+Package: ros-humble-effort-controllers-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.34
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-effort-controllers
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 277
+Depends: ros-humble-effort-controllers (= 100.0.0-2023.10.26.14.34)
+Filename: ./ros-humble-effort-controllers-dbgsym_100.0.0-2023.10.26.14.34_amd64.ddeb
+Size: 258388
+MD5sum: 7ca7528c58ba836ef230e333b9fe0f1d
+SHA1: 6defec67ae6f1cf5733c232a2b9dd3040e4769b9
+SHA256: abad068bbdcb6d1046d04371b86d4d50b7c80cd6b9335770f507554c7f792cd4
+SHA512: c4a8087a3cf62c3fabf261829828da36dac50d463e4abd7ecb6b20ba0f51f39bc1924d184e2fe5f32a79a8e4ad949708017b8008fd884d423bf16e3d62817ebd
+Description: debug symbols for ros-humble-effort-controllers
+Build-Ids: 14dd34c0ca869979f8c74f331c45b7915e42b92d
+
+Package: ros-humble-effort-controllers
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.34
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 101
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-backward-ros, ros-humble-forward-command-controller, ros-humble-pluginlib, ros-humble-rclcpp
+Filename: ./ros-humble-effort-controllers_100.0.0-2023.10.26.14.34_amd64.deb
+Size: 20876
+MD5sum: 814cdd918936b30f8a24355970f212fa
+SHA1: 019a4bff4e56445c63aeefb879124d5270be760e
+SHA256: 7a5d99fe7c9263f434dc0d52b1f072ba81e13d36c8d9cb2632b96d7904837d51
+SHA512: f7fd298fbe4e6dc875d9d4c10c7f107113ad83b80d0fe7f01ccd0f8bc10d5106b0409e6874d85a4d97796f190db09f27687ec3d9ee162f25f9e64884fcaf2afd
+Description: Generic controller for forwarding commands.
+
+Package: ros-humble-force-torque-sensor-broadcaster-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.28
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-force-torque-sensor-broadcaster
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 1084
+Depends: ros-humble-force-torque-sensor-broadcaster (= 100.0.0-2023.10.26.14.28)
+Filename: ./ros-humble-force-torque-sensor-broadcaster-dbgsym_100.0.0-2023.10.26.14.28_amd64.ddeb
+Size: 1003598
+MD5sum: 8f6715bd229197476cabb7efc449f694
+SHA1: 2824441a98b1f7f2cfab793fa372d191853398a7
+SHA256: 38174fa756efc5283a36263be635cf12cb233ff93ae9aeae29308ecf86cc5b60
+SHA512: 762b705cb9aea20f18a5cc970655b5c8a1f881ae557f52c0a458541924b74d0ba3fed420e416c9471c3f844e7768b0f494ac64b0e31df2989e2124e35629d604
+Description: debug symbols for ros-humble-force-torque-sensor-broadcaster
+Build-Ids: 86c0ee2c087b5ce9eca75b14a709af8e5bb72ac3
+
+Package: ros-humble-force-torque-sensor-broadcaster
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.28
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 306
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-backward-ros, ros-humble-controller-interface, ros-humble-generate-parameter-library, ros-humble-geometry-msgs, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-realtime-tools
+Filename: ./ros-humble-force-torque-sensor-broadcaster_100.0.0-2023.10.26.14.28_amd64.deb
+Size: 79332
+MD5sum: 80ec488210e21727ed0e9722ce82eaa6
+SHA1: 7e16ae828b23218e82c8556b962cd497a4a35d22
+SHA256: 33cb6f137b15c5ea2e19ccd48c36b4d6b38e1d5978e552b7c20734ed1be1ad16
+SHA512: 9386dc4e7e8521d80a22fd255e3fa19a341c4a862cfcad031b097dc337f2abd74e2386ff1ca2144c73bf6de726188631309d4723e6ad5f874bf386fb2953db60
+Description: Controller to publish state of force-torque sensors.
+
+Package: ros-humble-forward-command-controller-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.31
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-forward-command-controller
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 2715
+Depends: ros-humble-forward-command-controller (= 100.0.0-2023.10.26.14.31)
+Filename: ./ros-humble-forward-command-controller-dbgsym_100.0.0-2023.10.26.14.31_amd64.ddeb
+Size: 2365834
+MD5sum: 403576fc6c69673099a9973334f6f3b0
+SHA1: caccde7a468d22409e1263116cfeecd5d28eba24
+SHA256: f4f10ff75728cc5fa571a0f2447e81cbb802a3845c8ddd78cb7fdd0ee165c720
+SHA512: 145f784cbc0636b0c4ce66bd6974a9cb13b96c0ce8382a978245d2742c6a4fed43c42ce822575b22c4d2ed57bf67a0c607d2afd25ccc8f5b089ff5ce1525fc9b
+Description: debug symbols for ros-humble-forward-command-controller
+Build-Ids: 02ba2dd717acd7c5010e274d05f1b5f1721106e9
+
+Package: ros-humble-forward-command-controller
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.31
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 585
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-backward-ros, ros-humble-controller-interface, ros-humble-generate-parameter-library, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-realtime-tools, ros-humble-std-msgs
+Filename: ./ros-humble-forward-command-controller_100.0.0-2023.10.26.14.31_amd64.deb
+Size: 124584
+MD5sum: 02a3fe221ed9b853986b88271a5b915c
+SHA1: 87fcf2b7a20302fac06520c3103944a62e5c9fb5
+SHA256: 2260713ad2d3ddcae6d68501df7ed4b5722e41085a7239e3c7fc34594cf7f7c0
+SHA512: 430f8a75e43b493bdc6ea19bfe66329434c802fc3a5b51696ac60b3f63c4b8628bb01306c9fca7731dd0cccc408836557550039ca650b5e185b6435b2900b10d
+Description: Generic controller for forwarding commands.
+
+Package: ros-humble-franka-bringup
+Architecture: amd64
+Version: 100.0.2-2023.10.26.14.35
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 68
+Depends: ros-humble-controller-manager, ros-humble-franka-description, ros-humble-franka-hardware, ros-humble-franka-robot-state-broadcaster, ros-humble-joint-state-broadcaster, ros-humble-joint-state-publisher, ros-humble-robot-state-publisher, ros-humble-rviz2, ros-humble-xacro
+Filename: ./ros-humble-franka-bringup_100.0.2-2023.10.26.14.35_amd64.deb
+Size: 7438
+MD5sum: 83d60c0babccb6d95d6f7fcea3ab959a
+SHA1: 3d38e8947ad2faaf74d68cf1d37089f8b90800c6
+SHA256: 223ce7cb84c6b98f921b8be94bfabf8c3326e7d122b939e32e48fc2e0c3e1120
+SHA512: 2b8e40d8e97675686dfbdad1fd2b1a78b65b10e71e6c6d7a3888f0e38b095a8b6b01e6630e264fe30471f8948d2a772a7c1d02366c2fa06e704bb0817e736677
+Description: Package with launch files and run-time configurations for using Franka Emika research robots with ros2_control
+
+Package: ros-humble-franka-description
+Architecture: amd64
+Version: 100.0.2-2023.10.26.14.36
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 10353
+Depends: ros-humble-joint-state-publisher-gui, ros-humble-rviz2, ros-humble-xacro
+Filename: ./ros-humble-franka-description_100.0.2-2023.10.26.14.36_amd64.deb
+Size: 3077290
+MD5sum: 452465cef22a82a92dd385326067066b
+SHA1: 5363dfab519a124fbfee59641898b5e0ab1df388
+SHA256: 2bf7d8bf5d7b279af7a349ff2a3b72dd36808043777f61bbca36226f4255debc
+SHA512: 93d2bcc038be07094ce61b9a207f213b78184c074d8fda39d450c9c91e8145d8093e42343767a99a38fad25aa92210ab7142d9a9dc43737c0c46900b5151ecf1
+Description: franka_description contains URDF files and meshes of Franka Emika robots
+
+Package: ros-humble-franka-example-controllers-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.2-2023.10.26.15.05
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-franka-example-controllers
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 1317
+Depends: ros-humble-franka-example-controllers (= 100.0.2-2023.10.26.15.05)
+Filename: ./ros-humble-franka-example-controllers-dbgsym_100.0.2-2023.10.26.15.05_amd64.ddeb
+Size: 1282010
+MD5sum: e83aff7c90175f1840067f920654b5fc
+SHA1: 864e2bfefcde35aa4c712ac994c1634ad4b3d9ed
+SHA256: dfe2158e64a8c97c5bc6b6fe8c3f8987bc2e4711cb3b9532387194f23faadc5d
+SHA512: 0e2abfbeab129407fc201269c243f33c2c9339599b585e49cca14bcce9b254f5f7e934d79730f5702b088881188e65340d9cf3b91bfd83a07055fb65a6db3369
+Description: debug symbols for ros-humble-franka-example-controllers
+Build-Ids: 88c89dfce61b650e092f7975fb78d3d783052c55
+
+Package: ros-humble-franka-example-controllers
+Architecture: amd64
+Version: 100.0.2-2023.10.26.15.05
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 207
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-libfranka, libeigen3-dev, ros-humble-controller-interface, ros-humble-eigen3-cmake-module, ros-humble-franka-msgs, ros-humble-franka-semantic-components, ros-humble-generate-parameter-library, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle
+Filename: ./ros-humble-franka-example-controllers_100.0.2-2023.10.26.15.05_amd64.deb
+Size: 50626
+MD5sum: bd29da1008e8538253fb7af8ea62ca0d
+SHA1: 9d345cf552043a01afb26dfce1c82e6a1b0fac90
+SHA256: 437f612ec3855a0606726fc9ef2bbe893c9fe85bff91c8d5542c41c5dcc05710
+SHA512: 9593e80a56dca0145385300db73a8c0fc9e9473d6fce1a3e13b28f524cfbd19beb58c4afad5bddc0ec31806a9d3f1de028505c5c794cc9706430fbf5d84fcc37
+Description: franka_example_controllers provides example code for controlling Franka Emika research robots with ros2_control
+
+Package: ros-humble-franka-gripper-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.2-2023.10.26.14.58
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-franka-gripper
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 2642
+Depends: ros-humble-franka-gripper (= 100.0.2-2023.10.26.14.58)
+Filename: ./ros-humble-franka-gripper-dbgsym_100.0.2-2023.10.26.14.58_amd64.ddeb
+Size: 2317116
+MD5sum: d94456d2beda23dc4b5938d6c1cf906d
+SHA1: 78e9e3e0d84fd40d8491d14209c93789a3e5667f
+SHA256: f52e478e3c7bd5905b10c26fb6c7a3f1c0e7af7bd0d98b0358650e9eb1f240be
+SHA512: 0d54c9fc66323a65c80e13c7af490247fe75a3792a33120bb41d496cf8bac863a55e7135fc3d668454022b009bdb419d08393da6d20ae8fa62acb2fbfc55d037
+Description: debug symbols for ros-humble-franka-gripper
+Build-Ids: b1e097711554d54ef07a97e4fe2299cf262bddbd e241c86efe90454eaf4058b2eb8e8695190102cf
+
+Package: ros-humble-franka-gripper
+Architecture: amd64
+Version: 100.0.2-2023.10.26.14.58
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 568
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-libfranka, ros-humble-control-msgs, ros-humble-franka-msgs, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclcpp-components, ros-humble-rclpy, ros-humble-sensor-msgs, ros-humble-std-srvs
+Filename: ./ros-humble-franka-gripper_100.0.2-2023.10.26.14.58_amd64.deb
+Size: 126432
+MD5sum: f52426e90cbd01d779728c3c343b1882
+SHA1: e0b2f66325d4de3587567e15b5a237db62910427
+SHA256: 095ddd691721a2813cab709bf403f4c2e256d45f3946e552e27b6012724f6e6f
+SHA512: ec013c095a6a036f593e20d633290492b78ba1c0f2f453a56876aa0d8ddad376372223a450f82a76da4b5f75f9b40cdf1cd15ce9442fbc84c1f345309c1b0796
+Description: This package implements the franka gripper of type Franka Hand for the use in ROS2
+
+Package: ros-humble-franka-hardware-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.2-2023.10.26.15.00
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-franka-hardware
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 672
+Depends: ros-humble-franka-hardware (= 100.0.2-2023.10.26.15.00)
+Filename: ./ros-humble-franka-hardware-dbgsym_100.0.2-2023.10.26.15.00_amd64.ddeb
+Size: 630950
+MD5sum: efb2d67a2b7d84b838cf08754686ef7a
+SHA1: e4e31fd814cd797d9d13af97abde9b0736cd6d59
+SHA256: 305b2e18961e13382005713aca519b04f656dd6f7efc2f432655cba234206028
+SHA512: 9820dac7d60d7b282adecbd631639a66d9cfd9a6147ffe2a212c25cbc26ccc66f62136e8c4dc5ef2bca075f1b258e0f4b31cee262a7544769286a893adc6593c
+Description: debug symbols for ros-humble-franka-hardware
+Build-Ids: f9bd42bf5b3a9fba04594058dcab6f5a969f3eec
+
+Package: ros-humble-franka-hardware
+Architecture: amd64
+Version: 100.0.2-2023.10.26.15.00
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 199
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-libfranka, ros-humble-franka-msgs, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp
+Filename: ./ros-humble-franka-hardware_100.0.2-2023.10.26.15.00_amd64.deb
+Size: 51522
+MD5sum: 3170cb0e22a79e84d27ca079a8dc46fb
+SHA1: c848da6db7f85a444829fe039a27d74ea9e154d3
+SHA256: 331830c4bdeff5e6ac2a2e115bd43d6d11965a6deca195bed9b602823e4f6669
+SHA512: 44c868fecd7fac4c1a228be970121d9e90b8c08efb00feebfb82078d11a3cf00a8d83df81defd053e8652fc75b2b093eb0206847b11632b997ff4f90ef4bf255
+Description: franka_hardware provides hardware interfaces for using Franka Emika research robots with ros2_control
+
+Package: ros-humble-franka-moveit-config
+Architecture: amd64
+Version: 100.0.2-2023.10.26.14.38
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 91
+Depends: ros-humble-controller-manager, ros-humble-franka-description, ros-humble-franka-gripper, ros-humble-franka-hardware, ros-humble-joint-state-broadcaster, ros-humble-joint-state-publisher, ros-humble-moveit-kinematics, ros-humble-moveit-planners-ompl, ros-humble-moveit-ros-move-group, ros-humble-moveit-ros-visualization, ros-humble-robot-state-publisher, ros-humble-rviz2, ros-humble-xacro
+Filename: ./ros-humble-franka-moveit-config_100.0.2-2023.10.26.14.38_amd64.deb
+Size: 13484
+MD5sum: 483d0e3e202aca29e949f341f6638af3
+SHA1: e1e4b50f06440affc6b9cea0ee3fb8affca89996
+SHA256: 077996e2d64df64e284bdb451f552a26d364f778c9ad065acb04d9c6689b23c2
+SHA512: d623f48be38853d8e068749d5bc07d2e0f6a752382b9df5285a669b0a012a96000656a748f6f1f29d87820b4e894d3a7e6a5f148c050aba9e283746113ed30f6
+Description: Contains Moveit2 configuration files for Franka Emika research robots
+
+Package: ros-humble-franka-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.2-2023.10.26.14.38
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-franka-msgs
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 1484
+Depends: ros-humble-franka-msgs (= 100.0.2-2023.10.26.14.38)
+Filename: ./ros-humble-franka-msgs-dbgsym_100.0.2-2023.10.26.14.38_amd64.ddeb
+Size: 901530
+MD5sum: aaae26d19409703d571ffb9a8ae1a77e
+SHA1: fa75ab78c78f972f2ba7c996bfd9fedde1d018a6
+SHA256: ecfbe06f21dc21d98c433108df7f15b71710a91e236ebdc2aafdd22f947188aa
+SHA512: c5776b957cb164486157f7c4c7211b8a93f8ad8e6f1a4f3b770f8b4809d1632dd4f34e3c73e7f81643ddd63101e14ee91a368f6da9812b19eea658b7ad77a4ce
+Description: debug symbols for ros-humble-franka-msgs
+Build-Ids: 09e6b3d47904fbb2e03f16036ae5159edaeb2c57 1f2450f13f806c450f316deeca09c29c20dddcce 4780d0df85f9c07ade2e77a1e173b08c7cb747ea 48a0dde80194e0816be8e96b193f884b329a1924 5950b9145ed2877d0b3ee96eff649ec4f0d97ee5 60487f2c6dc523104a150f9b1b5b1bd6aca8948d 6588a580b4238dc4993454d891d45d4b0e0ab439 6f306808d5049e66f4b86e582c19b5aa739101e9 6ffa2186408501cd2c931967d7287b37b58f405f da8ebf0d04b317693819671699a45d9fcec84240 ebb2671688e1dc9b61eb61330c7bcfa8b000be25 f6a8bad7f7089ca2c3dd6e7b6fe2932ea6f56428
+
+Package: ros-humble-franka-msgs
+Architecture: amd64
+Version: 100.0.2-2023.10.26.14.38
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 3519
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-action-msgs, ros-humble-builtin-interfaces, ros-humble-rosidl-default-runtime, ros-humble-std-msgs
+Filename: ./ros-humble-franka-msgs_100.0.2-2023.10.26.14.38_amd64.deb
+Size: 202336
+MD5sum: 99d075d7966020f235682db9253a7a58
+SHA1: c279bb547ad62f3e52c8a3bbbf0d280043b0d9eb
+SHA256: 58ec23027aa5bf64b9c46f85aaa2470d3cc38a14aa6a6bb6f5d3011425dc1ec5
+SHA512: 049edf8b3e620f686ce0b4cb3c71c93493d51476e98dc8efcebf996083e83af7b8c8955a34d11b7f6699e943a171fc447078b739b3457d829126fd45314363aa
+Description: franka_msgs provides messages and actions specific to Franka Emika research robots
+
+Package: ros-humble-franka-robot-state-broadcaster-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.2-2023.10.26.15.07
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-franka-robot-state-broadcaster
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 1001
+Depends: ros-humble-franka-robot-state-broadcaster (= 100.0.2-2023.10.26.15.07)
+Filename: ./ros-humble-franka-robot-state-broadcaster-dbgsym_100.0.2-2023.10.26.15.07_amd64.ddeb
+Size: 925096
+MD5sum: febee86fa0b14a9487ac866003095e07
+SHA1: c58ff2f3b94c9c383863f7b599fb0e8514321be2
+SHA256: c0b1e6fb75d89d7b365a0256e213e2558534deb59d25903392df18143a968898
+SHA512: 47e15b1d2409800a6ac33df5254da0e7c95d2d6b5ae9c8dcffec4f8723f8d24a2d50f863d67a8a09ed95524cc7c991a6645c12621085ab0ec95055c423d599b6
+Description: debug symbols for ros-humble-franka-robot-state-broadcaster
+Build-Ids: f71621810bb32e745e589051e21fee6425fe99a6
+
+Package: ros-humble-franka-robot-state-broadcaster
+Architecture: amd64
+Version: 100.0.2-2023.10.26.15.07
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 246
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-backward-ros, ros-humble-builtin-interfaces, ros-humble-control-msgs, ros-humble-controller-interface, ros-humble-franka-msgs, ros-humble-franka-semantic-components, ros-humble-generate-parameter-library, ros-humble-pluginlib, ros-humble-rclcpp-lifecycle, ros-humble-rcutils, ros-humble-realtime-tools, ros-humble-sensor-msgs
+Filename: ./ros-humble-franka-robot-state-broadcaster_100.0.2-2023.10.26.15.07_amd64.deb
+Size: 68086
+MD5sum: f27a0280de82f828a92012cba4d0bcbb
+SHA1: 7c7f8ad01fe73efc42a486fc7a42f738614bb05b
+SHA256: 081c44595aeeaa2bbd7fd7024b57b6eb6d9b126ac4be83b15d2d8c9bdb75eab1
+SHA512: 5c8ae12473aab19e9d9dfe51210af05f4d773cea22d1424adb3de580b8f61153632be0db4f855b395ad6a7daa1e8345dcb9721f5ae2b1bca3dfcfaa6b0be68f1
+Description: Broadcaster to publish robot states
+
+Package: ros-humble-franka-semantic-components-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.2-2023.10.26.15.03
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-franka-semantic-components
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 211
+Depends: ros-humble-franka-semantic-components (= 100.0.2-2023.10.26.15.03)
+Filename: ./ros-humble-franka-semantic-components-dbgsym_100.0.2-2023.10.26.15.03_amd64.ddeb
+Size: 191818
+MD5sum: 9f9a475ad0f04bed88b73eff2c04d6f3
+SHA1: 4a04c69b7796590b66ef0c8392752042f110425f
+SHA256: 93f6cb6e7b2ec552937363fa3a546468b3ab2a2566dc2361d865232cf6718eeb
+SHA512: 81023a86465fe8e4552388d85e18684ffda8eb75ad25497076d838413f1ba80b65c05a242ebb13eefbbe2454b99e81d6da1450b93a8b45d7d0301415096755ab
+Description: debug symbols for ros-humble-franka-semantic-components
+Build-Ids: 3a18f13d60c81b02a34ad9407926a8d776747a47
+
+Package: ros-humble-franka-semantic-components
+Architecture: amd64
+Version: 100.0.2-2023.10.26.15.03
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 107
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-libfranka, ros-humble-controller-interface, ros-humble-franka-hardware, ros-humble-franka-msgs, ros-humble-hardware-interface, ros-humble-rclcpp
+Filename: ./ros-humble-franka-semantic-components_100.0.2-2023.10.26.15.03_amd64.deb
+Size: 21600
+MD5sum: 0b2606634b72999c67eb811b4cdbb268
+SHA1: b562cc59d91d8d93267e18269cc0a37df5b59dda
+SHA256: 8016f6bd38c1b0d54b0455d7d04ff1724056b408045cbda7df75a54df2d2cfbd
+SHA512: acdb7eb08fae3a7d49f28d1d34d147bd205560cad8a670867c110a18e56cefab8ec6e0e45094938d75d70aeea3ea26d78dd3f2c026b490f06b89d1456e7b72eb
+Description: franka_semantic_components provides semantic components for using Franka Emika research robots with ros2_control
+
+Package: ros-humble-gripper-controllers-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.40
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-gripper-controllers
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 1020
+Depends: ros-humble-gripper-controllers (= 100.0.0-2023.10.26.14.40)
+Filename: ./ros-humble-gripper-controllers-dbgsym_100.0.0-2023.10.26.14.40_amd64.ddeb
+Size: 913444
+MD5sum: 5b6375f76f5b1de8f36827b606002403
+SHA1: d7fb38d9c681116241dbcaf9d8fe55906e6bd485
+SHA256: 3327ae7d2b42788611066ce0ba3b9fb2aa9aef5b73beac2e33b1ab52abeb46af
+SHA512: dda1d5e1b32fa2939b080db6349ba55c86e0e92d96e48bd44b2557c9ac796292519635f8d25be15c95c100d9e6adaa120f384d82b86723dcca475e560db2972d
+Description: debug symbols for ros-humble-gripper-controllers
+Build-Ids: 48befbe523b8de640e4cead0ba3084d88a6d0923
+
+Package: ros-humble-gripper-controllers
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.40
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 338
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-backward-ros, ros-humble-control-msgs, ros-humble-control-toolbox, ros-humble-controller-interface, ros-humble-generate-parameter-library, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-realtime-tools
+Filename: ./ros-humble-gripper-controllers_100.0.0-2023.10.26.14.40_amd64.deb
+Size: 80926
+MD5sum: 693c8b4369ca1fd4c65064409460f275
+SHA1: 13d29677d9d413763cb72186ce9840c0cd2ae2cb
+SHA256: c8198427faf20492bc27b446ef1d4ef1559d05cf61e2fd0a703469620dba2495
+SHA512: 2d4770897a04417c5fa8c68a686a24a75028221a9f9a0a7a232508e04cb9656c12a87dc4f268a249af9c494a4fe221866eeb5abe31d0d03c5cf5abfb124bf379
+Description: The gripper_controllers package
+
+Package: ros-humble-imu-sensor-broadcaster-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.42
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-imu-sensor-broadcaster
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 1070
+Depends: ros-humble-imu-sensor-broadcaster (= 100.0.0-2023.10.26.14.42)
+Filename: ./ros-humble-imu-sensor-broadcaster-dbgsym_100.0.0-2023.10.26.14.42_amd64.ddeb
+Size: 993008
+MD5sum: 3547b71c360fa1c60e5ad10117f48f8f
+SHA1: 3b7261e7d10816451877e0aed254f786c1e15475
+SHA256: d68ba4eacaec91ecd9a5ab1e04546d37326d9d01d95c9ecb2eceaaa247b3987d
+SHA512: 865f31492b6f6c1b4ccf1da53d0b59b5bd728cf5abc36349e4ee10e451216590af054ba502aca8f211419a85dbecc8ff80fd535bfcffd52e0c86ccbbae4314cb
+Description: debug symbols for ros-humble-imu-sensor-broadcaster
+Build-Ids: d02ce1ae16504f9535034d8cb4f160cfa578c1db
+
+Package: ros-humble-imu-sensor-broadcaster
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.42
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 296
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-backward-ros, ros-humble-controller-interface, ros-humble-generate-parameter-library, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-realtime-tools, ros-humble-sensor-msgs
+Filename: ./ros-humble-imu-sensor-broadcaster_100.0.0-2023.10.26.14.42_amd64.deb
+Size: 79234
+MD5sum: c7946d32864d0acaa984c4138b6a3ed9
+SHA1: 48b4f749b9cbf2d530ad614f67b688fb4a3d80d9
+SHA256: 17911b12f18bbba0441bec77bd8e30533f12295cd1089def492ae13f79b9c5ab
+SHA512: fb466a3fe3827975789d25356fe6a367d7578a9c342577ae28eb9722c9df1e0f68f4eff28382aa11a2d38d81fd7294f5f4a23cd043e1096470f5a446bd4afad7
+Description: Controller to publish readings of IMU sensors.
+
+Package: ros-humble-integration-launch-testing
+Architecture: amd64
+Version: 100.0.2-2023.10.26.14.45
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 64
+Filename: ./ros-humble-integration-launch-testing_100.0.2-2023.10.26.14.45_amd64.deb
+Size: 8820
+MD5sum: 997e6ea730aa901361802b3988171390
+SHA1: da6eed86690a5cbd1c4fe6feee1b0f01ee690a48
+SHA256: 2899bb26ea43a1de491a562fbd65dbb2338ea3a4582bcb5486c55a906c672faa
+SHA512: 9deee492711c841712a3ff7d416e3bb32c990652dda19488b080975333e20afb51cc54fa3474dde6afc14f99410788c0d59229d741e4640cd4bf90cd8e49b0e2
+Description: Functional integration tests for franka controllers
+
+Package: ros-humble-joint-state-broadcaster-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.46
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-joint-state-broadcaster
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 1367
+Depends: ros-humble-joint-state-broadcaster (= 100.0.0-2023.10.26.14.46)
+Filename: ./ros-humble-joint-state-broadcaster-dbgsym_100.0.0-2023.10.26.14.46_amd64.ddeb
+Size: 1254744
+MD5sum: 8b15e343c2eda3841b0fa1ed5bf97f59
+SHA1: 3e03ddf126c3323d32f336d6ba3733d5f13c5769
+SHA256: 8d33840d0a027a459c6f2d715fddc32558a24cd89dd7b83cd30175e7171e1255
+SHA512: ae40ab296ef20cd2fd68f236af484cc3c9e713835bf829841539e53e886711fecc700228ac3dcd69544c3b351e22fb43b03a59356dcdc7c2bb77d751fb094a66
+Description: debug symbols for ros-humble-joint-state-broadcaster
+Build-Ids: 8e09bad18a772a6e056a3a7778c1ec57b69946d9
+
+Package: ros-humble-joint-state-broadcaster
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.46
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 351
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-backward-ros, ros-humble-builtin-interfaces, ros-humble-control-msgs, ros-humble-controller-interface, ros-humble-generate-parameter-library, ros-humble-pluginlib, ros-humble-rclcpp-lifecycle, ros-humble-rcutils, ros-humble-realtime-tools, ros-humble-sensor-msgs
+Filename: ./ros-humble-joint-state-broadcaster_100.0.0-2023.10.26.14.46_amd64.deb
+Size: 93152
+MD5sum: 2b02baeafeee8c2d206282f6cc536cd6
+SHA1: 38968955ab1fa1a472bb92da659fb351700d7e8b
+SHA256: f454e3b3e66c2f73308c39a33ef4a2bafb2c145a73e61c1134695bdd96cbae3b
+SHA512: 7d031cfd3d044cc382194c565b0f3a956bd1e6fd5a6914325f5d773c6364be3e0d415c2ef9cf47b53546364a03855a8c895db583515d17dc81b525c3bda927d9
+Description: Broadcaster to publish joint state
+
+Package: ros-humble-joint-trajectory-controller-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.49
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-joint-trajectory-controller
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 4316
+Depends: ros-humble-joint-trajectory-controller (= 100.0.0-2023.10.26.14.49)
+Filename: ./ros-humble-joint-trajectory-controller-dbgsym_100.0.0-2023.10.26.14.49_amd64.ddeb
+Size: 3820246
+MD5sum: 15c0c69237862e218cd8b59447e3ae09
+SHA1: 6032b38480286b7f3e391837c0689078032a0c66
+SHA256: 2853e2d84c741210a716b6aecb7c2255f2b54507415035d3d4becce823b87b39
+SHA512: 551ac5850f28573848f13bcff1ac27e4d5cefcbebe4018849a704d52eecf40a127a806e840d36ddd87e58be60af9f6914dbfc63df0e10fd772ec86c66096f582
+Description: debug symbols for ros-humble-joint-trajectory-controller
+Build-Ids: f3f9eb8f6d9772c9b7b3b63415bab8e716e5dc14
+
+Package: ros-humble-joint-trajectory-controller
+Architecture: amd64
+Version: 100.0.0-2023.10.26.14.49
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 1026
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-angles, ros-humble-backward-ros, ros-humble-control-msgs, ros-humble-control-toolbox, ros-humble-controller-interface, ros-humble-generate-parameter-library, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-realtime-tools, ros-humble-trajectory-msgs
+Filename: ./ros-humble-joint-trajectory-controller_100.0.0-2023.10.26.14.49_amd64.deb
+Size: 240422
+MD5sum: 263fd0ffa4b3b69b99debb06923cc18e
+SHA1: 044331e41d22474eaafad9d2aff9b366079cdf3d
+SHA256: 8a32d055c256818bb1c122d997ccaca3054f3c63cbc46287db860c472b4a618d
+SHA512: 6a10f79b5dc243dd79c5ae56581f7419af375e0cfef10fae709a20de30f1562eb1939e98945898b1f5777422e8b8bacaffe1e903a301f3ef4accc4acf8bdf5e2
+Description: Controller for executing joint-space trajectories on a group of joints
+
+Package: ros-humble-libfranka-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.9.2-2-gf9d57bb-2023.10.26.14.56
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-libfranka
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 7800
+Depends: ros-humble-libfranka (= 0.9.2-2-gf9d57bb-2023.10.26.14.56)
+Filename: ./ros-humble-libfranka-dbgsym_0.9.2-2-gf9d57bb-2023.10.26.14.56_amd64.ddeb
+Size: 7516010
+MD5sum: e39362dfaa7ec4c95b0e60b227e59db9
+SHA1: 8c6d4d4edadf3f3da77da68d66a59c8aec199df6
+SHA256: cdc24ef5f7aa8adb70469fafff19165d46ae76f5d9d8c82025947365da4dab1f
+SHA512: 109fb048e30fe378e6b1317843a92939392a4e59b268dc87f521a655f53efffc43574bea0bbaa3ab1bd6e3b7d6a5d2dbd1308744a896b6ca0df57efb4463c1cc
+Description: debug symbols for ros-humble-libfranka
+Build-Ids: 0b47945c8f6fde148ef90f1ac28da6b842db7964 1267981dca9e54d1ae9d85b5e158e6c7b3a8be39 25d20f3305b3f5dbbafcb045a39f3be4748120a8 4ad0f5080044e0269dbf4ce7f4084b9ff92ea075 4fcebbd115451664e24842520c92bd19ee6b046a 60180823a2e2e7028716c7de88c2ab115856ad76 65989d302d5d79d41d325592ff46eb0e6a46cfc8 8ae3b5dfc5d26a23233b4f5ba0b29ea413f44ee8 a5082b53e20ef96cdb1d8bb4ba6eca964c775981 b54657b3ecd696da545e437247cb2a5b62ba56e2 c6ece7ed15d8f40c055f2835f6cef28f01d40744 c84a726bb179fbbbd3607e955f36fda435ddadb0 c915129f71bfe85a8f87f2ebd29a51148404a3ce e156c23133e6a56a412ac4a78cef26f46290c88d ebfa040175aebbf256424ff548e438fbae031347 edc1f33575bf648f04018e782ebe1eec374b99a7 fa4a3f4245e552ac4cb85e1d0cd0961cebd7a5f8
+
+Package: ros-humble-libfranka
+Architecture: amd64
+Version: 0.9.2-2-gf9d57bb-2023.10.26.14.56
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 835
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpocofoundation80 (>= 1.11.0), libpoconet80 (>= 1.11.0), libstdc++6 (>= 11), libpoco-dev
+Filename: ./ros-humble-libfranka_0.9.2-2-gf9d57bb-2023.10.26.14.56_amd64.deb
+Size: 158014
+MD5sum: 00f0959bfd941d1bcdbcb5d908cfdf69
+SHA1: 389e34076056e7e933938042968207d3aa665296
+SHA256: 4099c52fe9bcc9aa8b5e2cd08ee0f4a5e0e1e16a45e5cabcc7d3ba607dcfc17f
+SHA512: 3aeb394c719d1b25830c680e758684d2b76f23164126064d28198a0a1a11123294792aaede2a849dace6b3e6553ba1f65db1d43f5c48f400c4295e2a638cbbaa
+Homepage: https://frankaemika.github.io
+Description: libfranka is a C++ library for Franka Emika research robots
+
+Package: ros-humble-position-controllers-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.10
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-position-controllers
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 272
+Depends: ros-humble-position-controllers (= 100.0.0-2023.10.26.15.10)
+Filename: ./ros-humble-position-controllers-dbgsym_100.0.0-2023.10.26.15.10_amd64.ddeb
+Size: 254534
+MD5sum: 238a570719ed94b84cfc009b86cd4b6f
+SHA1: 4fd363e09dea0f5c72f5dd3c99c56b0e0124c5f9
+SHA256: 18f542fe7ae35dfea6063e7869e7ccfd21b61fa9035149ed7c4b1a6e48a8855f
+SHA512: 4b7fce1716fb91d7422c7035688f8a139721b8d6bff68e6c31d1b0e1ed67bafc1408cabceadf881b56f36b9319c4db22977182fcdd5218c2b5fcc5242642ddf7
+Description: debug symbols for ros-humble-position-controllers
+Build-Ids: ccc9d468ede21d1c5fb68a0e0b87accf4a9f6497
+
+Package: ros-humble-position-controllers
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.10
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 97
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-backward-ros, ros-humble-forward-command-controller, ros-humble-pluginlib, ros-humble-rclcpp
+Filename: ./ros-humble-position-controllers_100.0.0-2023.10.26.15.10_amd64.deb
+Size: 20278
+MD5sum: cc8721d064305f8d92f613dfed4c0592
+SHA1: 012b3c5473a1d311c3c046c3f46d8bdc8e1b0e95
+SHA256: 5960a35db827d75014149f1b5c7f076e21da5b2fadb94ba9b5689eaefe15f3c1
+SHA512: 23d2c14b041dce26559bcca534670b99a87ee2dfacf9aee48b33465ced622674d26affaeade5bc352094b12cebe0d57ce15904f8d3276560e07fb2928cc0c6d6
+Description: Generic controller for forwarding commands.
+
+Package: ros-humble-ros2-controllers-test-nodes
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.12
+Priority: optional
+Section: misc
+Maintainer: Denis Štogl <denis@stoglrobotics.de>
+Installed-Size: 57
+Depends: ros-humble-rclpy, ros-humble-std-msgs, ros-humble-trajectory-msgs
+Filename: ./ros-humble-ros2-controllers-test-nodes_100.0.0-2023.10.26.15.12_amd64.deb
+Size: 9620
+MD5sum: 7c1f9b1321680734d12b224dd495f130
+SHA1: b97eafc6fb757abb142c4f8dec05af4d9fb6bccd
+SHA256: 6e2d0e21f0de00e765baaca474740ca8695c9302ea05b07e80a03282f9b911ea
+SHA512: e73bb4992efa628552e77324ecb2233901c75fed6b951d7e5287e9b25ca622d1785b0e764cf9659a7126b56dff9deb56a9495d7a4fa04f5eff639d3d38b2b8dc
+Description: Demo nodes for showing and testing functionalities of the ros2_control framework.
+
+Package: ros-humble-ros2-controllers
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.12
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 42
+Depends: ros-humble-ackermann-steering-controller, ros-humble-admittance-controller, ros-humble-bicycle-steering-controller, ros-humble-diff-drive-controller, ros-humble-effort-controllers, ros-humble-force-torque-sensor-broadcaster, ros-humble-forward-command-controller, ros-humble-imu-sensor-broadcaster, ros-humble-joint-state-broadcaster, ros-humble-joint-trajectory-controller, ros-humble-position-controllers, ros-humble-steering-controllers-library, ros-humble-tricycle-controller, ros-humble-tricycle-steering-controller, ros-humble-velocity-controllers
+Filename: ./ros-humble-ros2-controllers_100.0.0-2023.10.26.15.12_amd64.deb
+Size: 6164
+MD5sum: 2cb5131177cfb12174819958db27fa36
+SHA1: 314f27bf024e536df97746f73ac5232c0a66909d
+SHA256: 683beb586c48b1659d0f4942e8aabd485747e65f98c2ce5309c0d5cd4b0a4e6a
+SHA512: 78173b4e543e3d6ca75350e1c2a153e50991317d6e9ab41ec1c9ca81c027ce169734a09eb68881fdeefd2aa0d970ccb2ff2b8b8e0d45f6cda506a4a5b5c413db
+Description: Metapackage for ROS2 controllers related packages
+
+Package: ros-humble-rqt-joint-trajectory-controller
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.14
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 165
+Depends: python3-rospkg, ros-humble-control-msgs, ros-humble-controller-manager-msgs, ros-humble-python-qt-binding, ros-humble-qt-gui, ros-humble-rclpy, ros-humble-rqt-gui, ros-humble-rqt-gui-py, ros-humble-trajectory-msgs
+Filename: ./ros-humble-rqt-joint-trajectory-controller_100.0.0-2023.10.26.15.14_amd64.deb
+Size: 34376
+MD5sum: 349097b935c4da48a68ebcf1af3dde1c
+SHA1: 6286d9210be426c380fba80b7653eb0b5f99d8fd
+SHA256: 69e554a21b3666b021625710b248239b24df43219e48fbd6a8ec7a4dc453a437
+SHA512: e53c4ec041f58a6698845148b5c53461ab4ae217db4444e12ebc17e4625279145d2d6b858f7744a89e9514ede22741668b7ca7721ff941ef60c4af52c7e7d47e
+Description: Graphical frontend for interacting with joint_trajectory_controller instances.
+
+Package: ros-humble-steering-controllers-library-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.15
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-steering-controllers-library
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 4177
+Depends: ros-humble-steering-controllers-library (= 100.0.0-2023.10.26.15.15)
+Filename: ./ros-humble-steering-controllers-library-dbgsym_100.0.0-2023.10.26.15.15_amd64.ddeb
+Size: 3509188
+MD5sum: 0c4f4c83e4acd7ab8e83d93d8f7a4866
+SHA1: 756563fe226635119812b35bb69c7db676117105
+SHA256: e3cbd257ee8ee0db849dd41a9080590f28251d28c2c934344645ccdcdd0ba15d
+SHA512: 8bf48ca0c4e42088a2daa74ad8b0d117e20670ea2f7a4e75548f7f70ea718b9f5129c6cf7993a19099b59403dca1ae0afac26bd8dc4ca0f7cc9c56f330a5854d
+Description: debug symbols for ros-humble-steering-controllers-library
+Build-Ids: 883cf149c98f769dd8c448f27b2b2f930edeb6a2
+
+Package: ros-humble-steering-controllers-library
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.15
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 996
+Depends: libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-ackermann-msgs, ros-humble-backward-ros, ros-humble-control-msgs, ros-humble-controller-interface, ros-humble-geometry-msgs, ros-humble-hardware-interface, ros-humble-nav-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-rcpputils, ros-humble-realtime-tools, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-msgs
+Filename: ./ros-humble-steering-controllers-library_100.0.0-2023.10.26.15.15_amd64.deb
+Size: 189672
+MD5sum: 3d441c6ce145cb8b9e635eab6b086240
+SHA1: 207140a70e36f73785472eb6ad0ec96b4d072e9a
+SHA256: 40f4ba79ed51cf34e45c1b42d5ac92a6c7cf038c7b1b0940c67ddbd1199a073f
+SHA512: a6b39015bd2cbb476d069b21fd6d5c9ef8c3fd81ce23d84eaad95b521628e8aaafc758dcade8695616116028a1a6c435d23d62b81d6590004e43bbe893e8dd20
+Description: Package for steering robot configurations including odometry and interfaces.
+
+Package: ros-humble-tricycle-controller-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.23
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-tricycle-controller
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 4282
+Depends: ros-humble-tricycle-controller (= 100.0.0-2023.10.26.15.23)
+Filename: ./ros-humble-tricycle-controller-dbgsym_100.0.0-2023.10.26.15.23_amd64.ddeb
+Size: 3592560
+MD5sum: 18f95667d967dba1d564e9ad2a7f444d
+SHA1: 49680dc7b399c01eef32f2da425c5cb0fc938423
+SHA256: 7f76c89adb326af6e9a0750dc6a463d19977d64f25c40797b23f7bf8da29211b
+SHA512: 3d92bb13fd103de54e05bb4510698b12a7a89841259502e34de4b622225cac43b2fe2ec45cf1f0d1994420c56f5ea084c12581e5e617b5125c8ec2b27a739e38
+Description: debug symbols for ros-humble-tricycle-controller
+Build-Ids: 022c67112eb3c76f65745da9736243f8a8afd4ff
+
+Package: ros-humble-tricycle-controller
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.23
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 959
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-ackermann-msgs, ros-humble-backward-ros, ros-humble-builtin-interfaces, ros-humble-controller-interface, ros-humble-geometry-msgs, ros-humble-hardware-interface, ros-humble-nav-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-rcpputils, ros-humble-realtime-tools, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-msgs
+Filename: ./ros-humble-tricycle-controller_100.0.0-2023.10.26.15.23_amd64.deb
+Size: 184074
+MD5sum: 451f2ed5e2991116fcfd3f960fb1441b
+SHA1: 02d99dc53e4b94fa204b01850de88de4eb19037d
+SHA256: c793a7e43dce6499817e2913dac11c36cb296fc1a3bc28776f6731205c20b498
+SHA512: 0075c8d440c2c1ec51a5f765ab691a450f96032207f087cb880367e289dc48b7d6659cb47b9fe7eb5586f41152f58c3481a969de20f27d5d9cdb56cd1a0c93c3
+Description: Controller for a tricycle drive mobile base
+
+Package: ros-humble-tricycle-steering-controller-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.26
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-tricycle-steering-controller
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 539
+Depends: ros-humble-tricycle-steering-controller (= 100.0.0-2023.10.26.15.26)
+Filename: ./ros-humble-tricycle-steering-controller-dbgsym_100.0.0-2023.10.26.15.26_amd64.ddeb
+Size: 513684
+MD5sum: 92ab7769ffaf114a7a47ca0077f46dad
+SHA1: fe1c923c02e5a41712bb2b613ab8cd36943061ce
+SHA256: c2897c213484f3f15d3db78e4685eee0b7616ae8123feed7966903ee8bc3eb51
+SHA512: c2be2a80a53007dc485c896f8c4f53500208dd1037ac86b0fe2148182aa3ad52f7ada769183580ff3e794ab7f3281fb86ca6328c1d7b61239b237ba47330771c
+Description: debug symbols for ros-humble-tricycle-steering-controller
+Build-Ids: f0928aaa27212ed69c1340e1702d3e7b0f319672
+
+Package: ros-humble-tricycle-steering-controller
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.26
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 194
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-control-msgs, ros-humble-controller-interface, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-std-srvs, ros-humble-steering-controllers-library
+Filename: ./ros-humble-tricycle-steering-controller_100.0.0-2023.10.26.15.26_amd64.deb
+Size: 40938
+MD5sum: 4ca32c1b6b7fcd675c469e2f92ac4809
+SHA1: 02172f333e62d3ef652914c526b07df0a3522d0f
+SHA256: 3eaa18cdfc134389cd718245a6e0207e2597961702e5f471c95ae7aa803eced8
+SHA512: 889b827387ef22d6096a21bad83eaff05a34f5e1b3744ada4382e2fd34e6e9831b303dee8dd0624366b0639230524728cbc192157dc436418cfb10459dbb45a4
+Description: Steering controller with tricycle kinematics.
+ Rear fixed wheels are powering the vehicle and front wheel is steering.
+
+Package: ros-humble-velocity-controllers-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.28
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-velocity-controllers
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 277
+Depends: ros-humble-velocity-controllers (= 100.0.0-2023.10.26.15.28)
+Filename: ./ros-humble-velocity-controllers-dbgsym_100.0.0-2023.10.26.15.28_amd64.ddeb
+Size: 258436
+MD5sum: b2c332f56afc7de77e4744213a99d5d8
+SHA1: dc2ddcdc3cf55230d00384bc2b33ca610000911b
+SHA256: 268019e3eff775fe48ac4fe5b0bc214e51c9c710368cff5dc6db59c579ce1d7c
+SHA512: b633df31bf70b8d163bb80f02b4d4cc7d94812a2f03b63ba8df651c4694d3d3b39fcf6501c84b971681d2e6c9975ade60b2e7f7a79903edefaabdc0834506daf
+Description: debug symbols for ros-humble-velocity-controllers
+Build-Ids: f628f8e5272eb623666d71c31d61cdad3dc2a429
+
+Package: ros-humble-velocity-controllers
+Architecture: amd64
+Version: 100.0.0-2023.10.26.15.28
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 101
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-backward-ros, ros-humble-forward-command-controller, ros-humble-pluginlib, ros-humble-rclcpp
+Filename: ./ros-humble-velocity-controllers_100.0.0-2023.10.26.15.28_amd64.deb
+Size: 20862
+MD5sum: bf8d6387ce250fd4ab2cb9798ad230b4
+SHA1: 564ab0bfed2b2bcb3dd15b36298a073f7be920f2
+SHA256: df7c6243fe758f60c57ef9dddc08b59a86b7be8e6f54b4d314193966df39839d
+SHA512: 51900f9526dbaa01daa1801e23b11d5a929aa866d58b394167a21d361ac09e03c0e0224ed7279bad3121db58f70a28526d0ee94402f8e3900df1a359c9e9e0ac
+Description: Generic controller for forwarding commands.
+
