@@ -1,0 +1,17 @@
+repositories:
+  # Need to include:
+  #   - https://github.com/ros-controls/ros2_controllers/pull/558
+  #   - https://github.com/ros-controls/ros2_controllers/pull/706
+  ros2_controllers:
+    type: git
+    url: https://github.com/JafarAbdi/ros2_controllers.git
+    version: release
+  # Use upstream repo once https://github.com/frankaemika/franka_ros2/pull/13 is merged
+  franka_ros2:
+    type: git
+    url: https://github.com/JafarAbdi/franka_ros2.git
+    version: release
+  libfranka:
+    type: git
+    url: https://github.com/JafarAbdi/libfranka-release.git
+    version: humble
